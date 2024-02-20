@@ -47,6 +47,10 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
     color: blue;
     font-size: 20px;
 }
+.opciones{
+    background-color: #B69A76;
+    color:white ;
+}
 .portada{
     background-image: url(../img/portada.jpg);
     background-size: cover;
