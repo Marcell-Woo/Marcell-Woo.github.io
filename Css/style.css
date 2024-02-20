@@ -131,8 +131,9 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 }
 .columna{
     display: flex;
-    padding: 30%;
-    border: 1px solid #B69A76;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
 }
 .referencias{
     display: flex;
