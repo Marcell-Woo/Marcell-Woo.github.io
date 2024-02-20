@@ -131,7 +131,6 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 }
 .columna{
     display: flex;
-    flex: 1;
     padding: 20px;
     border: 1px solid #B69A76;
 }
