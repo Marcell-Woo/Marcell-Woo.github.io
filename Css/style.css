@@ -126,6 +126,7 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 .footer{
     display: flex;
     color: white;
+    background-color: #B69A76;
     padding: 20px;
 }
 .columna{
