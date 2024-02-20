@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Document</title>
+    <style>
+        span {
+            color: blue;
+        }
+
+        span:hover {
+            color: darkcyan;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="titulo-notificaciones">
+            <div class="padre-titulo">
+                <h1 class="titulo">El Túnel</h1>
+            </div>
+            <div class="buscador-notificaciones">
+                <form action="" class="buscador">
+                    <input type="search" name="" id="" placeholder="Buscar">
+                    <button type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+                <div class="notificaciones">
+                    <div class="num-icon">
+                        <span class="n-n"><i class="bi bi-1-circle"></i></span>
+                        <span class="i-n"><i class="bi bi-person"></i></span>
+                    </div>
+                    <div class="num-icon">
+                        <span class="n-n"><i class="bi bi-2-circle"></i></span>
+                        <span class="i-n"><i class="bi bi-chat-heart-fill"></i></span>
+                    </div>
+                    <div class="num-icon">
+                        <span class="n-n"><i class="bi bi-3-circle"></i></span>
+                        <span class="i-n"><i class="bi bi-cart-fill"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Libros</a>
+            <a href="#">Los más leidos</a>
+            <a href="#">Accesorios</a>
+            <a href="#">Socursal</a>
+        </nav>
+    </header>
+    <main>
+        <div class="portada">
+            <h1>Creando nuevos mundos,historias y recuerdos</h1>
+            <h1>"Vivir consiste en construir futuros recuerdos"</h1>
+        </div>
+        <div class="recomendados">
+            <h1 style="color: red; font-weight: bold;">Recomendos</h1>
+            <div class="recomendaciones">
+                <div class="tarjeta-libro">
+                    <div class="libro-portada">
+                        <img src="https://imagessl2.casadellibro.com/a/l/t0/52/9788478884452.jpg" alt="">
+                    </div>
+                    <div class="datos-autor">
+                        <h3>Harry Potter y la piedra filosofaal</h3>
+                        <p>J.K.ROWLING</p>
+                        <div class="call-compra d-flex">
+                            <button class="btn-compra">Ver más</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-libro">
+                    <div class="libro-portada">
+                        <img src="https://imagessl2.casadellibro.com/a/l/t0/52/9788478884452.jpg" alt="">
+                    </div>
+                    <div class="datos-autor">
+                        <h3>Harry Potter y la piedra filosofaal</h3>
+                        <p>J.K.ROWLING</p>
+                        <div class="call-compra d-flex">
+                            <p>$400.00</p>
+                            <button class="btn-compra">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- <div class="recomendaciones d-flex">
+            <h1 style="color: red; font-weight: bold;">Recomendaciones</h1>
+        </div><br>
+        <section class="recomendaciones d-flex">
+            <div class="tarjeta-libro">
+                <div>
+                    <img src="https://imagessl2.casadellibro.com/a/l/t0/52/9788478884452.jpg" alt="Harry Potter">
+                </div>
+                <div class="datos-autor">
+                    <h3>Harry Potter y la piedra filosofaal</h3>
+                    <p>J.K.ROWLING</p>
+                    <div class="call-compra d-flex">
+                        <button class="btn-compra">Ver más</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta-libro">
+                <img src="https://imagessl9.casadellibro.com/a/l/t0/39/9788420471839.jpg" alt="CIEN AÑOS DE SOLEDAD">
+                <div class="datos-autor">
+                    <h3>Cien años de soledad</h3>
+                    <p>Gabriel Garcia Marquez</p>
+                    <div class="call-compra d-flex">
+                        <button class="btn-compra">Ver más</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta-libro">
+                <img src="https://imagessl5.casadellibro.com/a/l/s7/75/9788411070775.webp"
+                    alt="La insoportable levedad del ser">
+                <div class="datos-autor">
+                    <h3>La insoportable levedad del ser</h3>
+                    <p>Milan Bundera</p>
+                    <div class="call-compra d-flex">
+                        <button class="btn-compra">Ver más</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta-libro">
+                <img src="https://imagessl8.casadellibro.com/a/l/t0/88/9788466329088.jpg"
+                    alt="Como agua para chocolate">
+                <div class="datos-autor">
+                    <h3>Como agua para chocolate</h3>
+                    <p>Laura Esquivel</p>
+                    <div class="call-compra d-flex">
+                        <button class="btn-compra">Ver más</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="libros d-flex">
+            <h1 style="color: red; font-weight: bold;">Libros</h1>
+        </div><br>
+        <section class="libros d-flex">
+
+            <div class="tarjeta-libro">
+                <div class="portada-libro">
+                    <img src="https://www.elsotano.com/imagenes_grandes/9786073/978607390465.JPG"
+                        alt="Fuerte es el Silencio">
+                    <div class="datos-autor">
+                        <h3>Fuerte es el silencio</h3>
+                        <p>Elena Poniatowska</p>
+                        <div class="call-compra d-flex">
+                            <p>$450.00</p>
+                            <button class="btn-compra">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta-libro">
+                <div class="portada-libro">
+                    <img src="https://www.elsotano.com/imagenes_grandes/9786071/978607112655.JPG" alt="RAYUELA">
+                    <div class="datos-autor">
+                        <h3>Rayuela</h3>
+                        <p>Julio Cortázar</p>
+                        <div class="call-compra d-flex">
+                            <p>$445.00</p>
+                            <button class="btn-compra">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta-libro">
+                <div class="portada-libro">
+                    <img src="https://www.elsotano.com/imagenes_grandes/9786070/978607076295.JPG"
+                        alt="La ley de Herodes">
+                    <div class="datos-autor">
+                        <h3>La ley de Herodes</h3>
+                        <p>Jorge Ibargüengoitia</p>
+                        <div class="call-compra d-flex">
+                            <p>$150.00</p>
+                            <button class="btn-compra">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta-libro">
+                <div class="portada-libro">
+                    <img src="https://www.elsotano.com/imagenes_grandes/9786073/978607390460.JPG"
+                        alt="Arrancame la Vida">
+                    <div class="datos-autor">
+                        <h3>Arrancame la vida</h3>
+                        <p>Angeles Mastretta</p>
+                        <div class="call-compra d-flex">
+                            <p>$350.00</p>
+                            <button class="btn-compra">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta-libro">
+                <div class="portada-libro">
+                    <img src="https://www.elsotano.com/imagenes_grandes/9786070/978607074392.JPG"
+                        alt="Una habitación propia">
+                    <div class="datos-autor">
+                        <h3>Una habitación propia</h3>
+                        <p>Virginia Woolf</p>
+                        <div class="call-compra d-flex">
+                            <p>$240.00</p>
+                            <button class="btn-compra">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta-libro">
+                <div class="portada-libro">
+                    <img src="https://www.elsotano.com/imagenes/9786079/978607927853.JPG" alt="El doctor Zhivago">
+                    <div class="datos-autor">
+                        <h3>El doctor Zhivago</h3>
+                        <p>Borís Pasternak</p>
+                        <div class="call-compra d-flex">
+                            <p>$370.00</p>
+                            <button class="btn-compra">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tarjeta-libro">
+                <div class="portada-libro">
+                    <img src="https://www.elsotano.com/imagenes_grandes/9786070/978607074029.JPG" alt="Ana Karenina">
+                    <div class="datos-autor">
+                        <h3>Ana Karenina</h3>
+                        <p>Liev N. Tolstói</p>
+                        <div class="call-compra d-flex">
+                            <p>$500.00</p>
+                            <button class="btn-compra">COMPRAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    </main>
+
+    <section class="conocenos d-flex">
+        <div class="conocenos" h1 style="color: red; font-weight: bold;">Conocenos</h1> <br>
+        </div> <br>
+        <div class="eslogan">
+            <p>El túnel es una cafeteria ideal para los amantes de la literatura.</p><br>
+            <p>Además de su servicio de venta de libros y productos en linea puedes visitar
+                nustra sucursal y acompañar tu lectura con una taza de cafe o bebida de tu
+                elección , o bien, disfrutar de los diversos eventos culturales que tenemos para ti.
+            </p><br>
+            <p>Siguenos en redes sociales y mantente atento a ala cartelera de eventos.</p><br>
+            <p>¡Te esperamos!</p>
+        </div>
+        <div class="libreria">
+            <img src="https://i.pinimg.com/originals/6e/dc/fe/6edcfeeaf62b8c26ff0781fb4a447599.jpg" alt="libreria">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer columna">
+            <p>Maiores fuga consequuntur molestiae. Aspernatur, saepe? Fugit nemo dicta eum officia facere ullam
+                nesciunt vel quod!</p>
+        </div>
+        <div class="footer columna">
+            lorem <br>
+            loremmuakhf <br>
+            loremhd <br>
+            hjdfhjf <br>
+            lorem <br>
+            loremmuakhf <br>
+            loremhd <br>
+            hjdfhjf <br>
+        </div>
+    </footer>
+</body>
+
+</html>
