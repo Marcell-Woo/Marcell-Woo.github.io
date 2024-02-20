@@ -125,9 +125,10 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 }
 .footer{
     display: flex;
+    min-height: 100px;
     color: black;
     background-color: #B69A76;
-    padding: 2px;
+    padding: 20px;
 }
 .columna{
     display: flex;
