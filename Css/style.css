@@ -119,7 +119,6 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 }
 .eslogan{
     display: flex;
-    background-color: aquamarine;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -127,6 +126,8 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 .footer{
     display: flex;
     background-color: #B69A76;
+    color: white;
+    padding: 20px;
 }
 .columna{
     display: flex;
