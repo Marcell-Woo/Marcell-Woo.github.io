@@ -78,6 +78,7 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 }
 
 .libros{
+    color: black;
     display: flex;
 }
 .tarjeta-libro{
@@ -125,6 +126,7 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 }
 .footer{
     display: flex;
+    background-color: #B69A76;
 }
 .columna{
     display: flex;
