@@ -127,12 +127,12 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
     display: flex;
     color: black;
     background-color: #B69A76;
-    padding: 20px;
+    padding: 2px;
 }
 .columna{
     display: flex;
     flex: 1;
-    padding: 20px;
+    padding: 2px;
     border: 1px solid #ccc;
 }
 .referencias{
