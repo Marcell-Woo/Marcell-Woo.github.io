@@ -118,13 +118,13 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
 .libreria{
     display: flex;
-    width: 100%;
+    width: 10%;
     height: 500px;
 }
 .eslogan{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 .footer{
