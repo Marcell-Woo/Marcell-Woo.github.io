@@ -144,6 +144,8 @@ url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
     display: flex;
     justify-content: space-around;
     width: 40%;
+    justify-content: right;
+    align-items: right;
 }
 .subtitulos{
     justify-content: center;
